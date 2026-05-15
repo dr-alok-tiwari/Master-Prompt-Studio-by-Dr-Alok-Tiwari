@@ -1,5 +1,5 @@
 """
-Master Productivity Prompt Studio
+Master Prompt Studio
 Created by: Dr Alok Tiwari
 Goa Institute of Management
 
