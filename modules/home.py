@@ -1,5 +1,5 @@
 """
-Home page — Master Productivity Prompt Studio
+Home page — Master Prompt Studio
 """
 
 import streamlit as st
@@ -31,7 +31,7 @@ def render():
         <div style="text-align:center;padding:36px 20px 16px;">
             <div style="font-size:3.2rem;margin-bottom:8px;">🧠</div>
             <div class="page-title" style="font-size:2.5rem;text-align:center;">
-                Master Productivity Prompt Studio
+                Master Prompt Studio
             </div>
             <div class="page-subtitle" style="font-size:1.05rem;max-width:640px;
                  margin:8px auto 0;text-align:center;color:#5A5A6A;">
