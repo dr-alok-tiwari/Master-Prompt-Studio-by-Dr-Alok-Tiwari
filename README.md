@@ -1,4 +1,4 @@
-# 🧠 Master Productivity Prompt Studio
+# 🧠 Master Prompt Studio
 
 **Created by:** Dr Alok Tiwari  
 **Affiliation:** Goa Institute of Management, Goa  
@@ -9,7 +9,7 @@
 
 ## 1. Purpose
 
-Master Productivity Prompt Studio is a modular Streamlit application for generating high-quality master prompts for academic, research, teaching, productivity, career, and professional writing workflows.
+Master Prompt Studio is a modular Streamlit application for generating high-quality master prompts for academic, research, teaching, productivity, career, and professional writing workflows.
 
 The app does **not** call OpenAI, Gemini, Claude, or any paid API. It prepares structured prompts that users can copy, edit, save, and reuse in their preferred AI tool.
 
@@ -52,7 +52,7 @@ The app does **not** call OpenAI, Gemini, Claude, or any paid API. It prepares s
 ## 4. Folder Structure
 
 ```text
-master_productivity_prompt_studio/
+master_prompt_studio/
 ├── app.py
 ├── requirements.txt
 ├── README.md
@@ -91,7 +91,7 @@ master_productivity_prompt_studio/
 ### Windows PowerShell
 
 ```powershell
-cd master_productivity_prompt_studio
+cd master_prompt_studio
 python -m venv .venv
 .\.venv\Scripts\activate
 python -m pip install --upgrade pip
@@ -102,7 +102,7 @@ streamlit run app.py
 ### macOS / Linux
 
 ```bash
-cd master_productivity_prompt_studio
+cd master_prompt_studio
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
