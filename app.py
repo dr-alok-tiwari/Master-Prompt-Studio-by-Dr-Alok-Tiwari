@@ -15,14 +15,14 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 # ─── Page configuration ────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Master Productivity Prompt Studio",
+    page_title="Master Prompt Studio",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
         "Get Help": None,
         "Report a bug": None,
-        "About": "Master Productivity Prompt Studio — Created by Dr Alok Tiwari",
+        "About": "Master Prompt Studio — Created by Dr Alok Tiwari",
     },
 )
 
