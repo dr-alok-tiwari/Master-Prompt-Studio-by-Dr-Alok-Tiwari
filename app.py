@@ -101,7 +101,7 @@ st.sidebar.markdown(
         <div style="font-size:2.2rem;">🧠</div>
         <div style="font-family:'Georgia',serif;font-size:1.05rem;
              color:#F5E6D3;font-weight:700;line-height:1.4;letter-spacing:0.01em;">
-            Master Productivity<br>Prompt Studio
+            Master <br>Prompt Studio
         </div>
         <div style="font-size:0.78rem;color:#F5A623;margin-top:6px;font-weight:600;">
             Dr Alok Tiwari
