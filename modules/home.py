@@ -200,7 +200,7 @@ def render():
     # ── Footer ────────────────────────────────────────────────────────────────
     st.markdown(
         """<div class="footer-note">
-        Copyright © Dr Alok Tiwari &nbsp;|&nbsp; Master Productivity Prompt Studio
+        Copyright © Dr Alok Tiwari &nbsp;|&nbsp; Master Prompt Studio
         &nbsp;|&nbsp; All rights reserved
         </div>""",
         unsafe_allow_html=True,
