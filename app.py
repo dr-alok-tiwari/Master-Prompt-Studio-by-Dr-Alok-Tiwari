@@ -40,6 +40,7 @@ from modules import (
     research_productivity_studio,
     workflow_studio,
     streamlit_app_prompt_studio,
+    monetization_idea_studio,
     custom_prompt_builder,
     prompt_library,
     health_check,
@@ -53,11 +54,11 @@ ensure_data_files()
 _defaults = {
     "rps_prompt": "", "hb_prompt": "", "cp_prompt": "", "ja_prompt": "",
     "ats_prompt": "", "tc_prompt": "", "qc_prompt": "", "em_prompt": "",
-    "rp_prompt": "", "wf_prompt": "", "sa_prompt": "", "cpb_prompt": "",
+    "rp_prompt": "", "wf_prompt": "", "sa_prompt": "", "mi_prompt": "", "cpb_prompt": "",
     "rps_show_save": False, "hb_show_save": False, "cp_show_save": False,
     "ja_show_save": False, "ats_show_save": False, "tc_show_save": False,
     "qc_show_save": False, "em_show_save": False, "rp_show_save": False,
-    "wf_show_save": False, "sa_show_save": False, "cpb_show_save": False,
+    "wf_show_save": False, "sa_show_save": False, "mi_show_save": False, "cpb_show_save": False,
     # Navigation intent — home buttons write here; app.py reads before widget creation
     "_nav_target": None,
 }
@@ -81,6 +82,7 @@ PAGES = {
     "🧪 Research Productivity Generator": "research_productivity",
     "⚙️ Productivity Workflow Generator": "workflow",
     "💻 Streamlit App Prompt Generator": "streamlit_app",
+    "💰 Monetization Idea Studio": "monetization_idea",
     "🧩 Custom Prompt Builder": "custom_prompt",
     "📚 My Prompt Library": "prompt_library",
     "🩺 Health Check": "health_check",
@@ -151,6 +153,7 @@ ROUTES = {
     "research_productivity": research_productivity_studio.render,
     "workflow": workflow_studio.render,
     "streamlit_app": streamlit_app_prompt_studio.render,
+    "monetization_idea": monetization_idea_studio.render,
     "custom_prompt": custom_prompt_builder.render,
     "prompt_library": prompt_library.render,
     "health_check": health_check.render,
